@@ -4,11 +4,11 @@
 
 Projeto SPA React 16+ - Aplicativo web gerenciamento de funcionários com recursos CRUD:
 
-- Listar | GET | `funcionarios/api/v1/funcionarios/listar` | Status Code (200 (OK)) | Busca todos os funcionários
-- Criar | POST | `funcionarios/api/v1/funcionarios/criar` | Status Code (201 (OK)) | criar um novo funcionário
-- Buscar | GET | `funcionarios/api/v1/funcionarios/{id}` | Status Code (200 (OK)) | Buscar funcionário
-- Editar | PUT | `funcionarios/api/v1/funcionarios/{id}` | Status Code (200 (OK)) | Atualizar funcionário
-- Excluir | DELETE | `funcionarios/api/v1/funcionarios/{id}` | Status Code (204 (No Content)) | Deletar funcionário
+- Listar | GET | `/api/v1/funcionarios/listar` | Status Code (200 (OK)) | Busca todos os funcionários
+- Criar | POST | `/api/v1/funcionarios/salvar` | Status Code (201 (OK)) | criar um novo funcionário
+- Buscar | GET | `/api/v1/funcionarios/{id}` | Status Code (200 (OK)) | Buscar funcionário
+- Editar | PUT | `/api/v1/funcionarios/{id}` | Status Code (200 (OK)) | Atualizar funcionário
+- Excluir | DELETE | `/api/v1/funcionarios/{id}` | Status Code (204 (No Content)) | Deletar funcionário
 
 ## Antes de iniciar
 
