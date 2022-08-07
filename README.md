@@ -1,4 +1,4 @@
-# Projeto Aplicativo full-stack com Spring Boot, Hibernate, Microsoft SQL
+# Projeto Aplicativo React 16+
 
 ## Descrição do projeto
 
