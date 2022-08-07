@@ -16,12 +16,12 @@ Verifique o ambiente com os seguintes parâmetros:
 
 ## Ferramentas e tecnologias do lado do cliente usadas
 
-- React
+- React 16+
 - Modern JavaScript (ES6)
-- NodeJS and Yarn
+- NodeJS 16+ and Yarn
 - VS Code IDE
 - Create React App CLI
-- Bootstrap 4.5 and Axios HTTP Library
+- Bootstrap 4x and Axios HTTP Library
 
 Bora ao projeto, entra na pasta frontend e execute:
 
