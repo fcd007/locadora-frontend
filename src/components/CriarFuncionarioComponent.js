@@ -103,7 +103,7 @@ class CriarFuncionarioComponent extends Component {
                     <input
                       id="email"
                       name="email"
-                      placeholder="Restante do nome"
+                      placeholder="Seu melhor email"
                       className="form-control"
                       value={this.state.funcionario.email}
                       onChange={this.changeUpdateFuncionario}

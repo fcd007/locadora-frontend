@@ -49,7 +49,7 @@ class VisualizarFuncionarioComponent extends Component {
                 <td>{this.state.funcionario.id}</td>
                 <td>{this.state.funcionario.nome}</td>
                 <td>{this.state.funcionario.sobrenome}</td>
-                <td>{this.state.funcionario.emailId}</td>
+                <td>{this.state.funcionario.email}</td>
               </tr>
             </tbody>
           </table>
