@@ -8,7 +8,7 @@ class FuncionarioService {
   }
 
   criarFuncionario(funcionario) {
-    return axios.post(FUNCIONARIO_API_BASE_URL + '/criar', funcionario);
+    return axios.post(FUNCIONARIO_API_BASE_URL + '/salvar', funcionario);
   }
 
   buscarFuncionarioById(funcionarioId) {

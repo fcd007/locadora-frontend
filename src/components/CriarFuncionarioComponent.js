@@ -14,7 +14,7 @@ class CriarFuncionarioComponent extends Component {
       funcionario: {
         nome: '',
         sobrenome: '',
-        emailId: '',
+        email: '',
       },
     };
   }
@@ -34,7 +34,7 @@ class CriarFuncionarioComponent extends Component {
     let funcionario = {
       nome: this.state.funcionario.nome,
       sobrenome: this.state.funcionario.sobrenome,
-      emailId: this.state.funcionario.emailId,
+      email: this.state.funcionario.email,
     };
 
     if (this.state.id === '_add') {
@@ -71,11 +71,10 @@ class CriarFuncionarioComponent extends Component {
   render() {
     return (
       <div>
-        <br />
         <div className="container">
-          <div className-="row">
             {this.getTitutlo()}
-            <br />
+            <br></br>
+          <div className="row">
             <div className="card col-md-6 offset-md-3 offset-md-3">
               <div className="card-body">
                 <form>
@@ -102,11 +101,11 @@ class CriarFuncionarioComponent extends Component {
                     <br />
                     <label>Email:</label>
                     <input
-                      id="emailId"
-                      name="emailId"
+                      id="email"
+                      name="email"
                       placeholder="Restante do nome"
                       className="form-control"
-                      value={this.state.funcionario.emailId}
+                      value={this.state.funcionario.email}
                       onChange={this.changeUpdateFuncionario}
                     />
                   </div>

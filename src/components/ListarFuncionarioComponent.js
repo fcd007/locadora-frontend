@@ -70,7 +70,7 @@ class ListaFuncionarioComponente extends Component {
                 <tr key={funcionario.id}>
                   <td>{funcionario.nome}</td>
                   <td>{funcionario.sobrenome}</td>
-                  <td>{funcionario.emailId}</td>
+                  <td>{funcionario.email}</td>
                   <td>
                     <button
                       className="btn btn-info"

@@ -27,8 +27,7 @@ class VisualizarFuncionarioComponent extends Component {
     return (
       <div>
         <h2 className="text-center">Detalhes Funcionário</h2>
-        <br />
-        <br />
+        <br></br>
         <div className="row">
           <button className="btn btn-primary" onClick={this.cancelar}>
             Voltar
@@ -42,7 +41,7 @@ class VisualizarFuncionarioComponent extends Component {
                 <th>ID</th>
                 <th>Nome</th>
                 <th>Sobrenome</th>
-                <th>Email Id</th>
+                <th>Email</th>
               </tr>
             </thead>
             <tbody>
